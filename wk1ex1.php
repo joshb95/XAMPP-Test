@@ -1,3 +1,1 @@
-hello
-another change
-another another change
+<?php phpinfo(); ?>
