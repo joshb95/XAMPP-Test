@@ -10,6 +10,6 @@
 $count = 0;
   while ($count < 7) {
     echo "$count module is $topModules[$count] <br/>";
-    $count++;  // code...
+    $count++;
   }
 ?>
