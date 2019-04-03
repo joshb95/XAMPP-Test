@@ -10,6 +10,6 @@
 
   for($count = 0;$count < 6;$count++);
   {
-    echo "$count module is $topModules[$count] /n";
+    echo "$count module is $topModules[$count] \n";
   }
 ?>
