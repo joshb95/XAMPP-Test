@@ -8,7 +8,7 @@
   $topModules[6] = "Open Source Systems";
 
 
-  for($count = 0;$count < 7;$count++);
+  for($count = 0;$count < 6;$count++);
   {
     echo "$count module is $topModules[$count] <br/>";
   }
