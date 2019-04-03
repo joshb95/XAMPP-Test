@@ -7,9 +7,9 @@
   $topModules[5] = "Mobile Systems";
   $topModules[6] = "Open Source Systems";
 
-
-  for($count = 0;$count < 6;$count++);
-  {
+$count = 0;
+  while ($count < 7) {
     echo "$count module is $topModules[$count] <br/>";
+    $count++;  // code...
   }
 ?>
