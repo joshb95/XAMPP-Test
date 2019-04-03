@@ -1,6 +1,6 @@
 <! - - Speed camera advise script - ->
 
-<?ph
+<?php 
   $points = 13;
  // Output appropriate message depending on points awarded.
  if ( $points >= 12)
@@ -15,4 +15,4 @@ else
 {
    echo "There is no need to worry about the speed limit.<br/>";
 }
-?> 
+?>
