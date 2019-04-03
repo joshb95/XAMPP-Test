@@ -5,7 +5,7 @@
 
   while(list($index,$value) = each($mymarks));
   {
-    echo "for  .$index.  my grade was  .$value. <br/>";
+    echo "for  $index  my grade was  $value <br/>";
   }
-  echo "<br/> My best year was Year 3 when I averaged ". $mymarks["year 3"];
+  echo " My best year was Year 3 when I averaged ". $mymarks["year 3"];
 ?>
