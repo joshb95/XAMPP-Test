@@ -18,7 +18,7 @@
     {
        // Substitute your login in place of "yourLogin"
        $fp = fopen("your Login.txt","a");
-       fputs($fp,nl2br($_POST[note]).'<br>');
+       fputs($fp,nl2br($_POST["note"]).'<br>');
        fclose($fp);
     }
 ?>
