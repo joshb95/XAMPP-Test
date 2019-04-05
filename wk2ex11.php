@@ -12,7 +12,7 @@
   }
 
   $total = 0;
-  $total = $total + $mymarks["CO450"];
+  $total = $total + each($mymarks);
   $average = $total /  6;
   echo "My average grade was $average";
 
