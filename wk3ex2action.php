@@ -7,7 +7,9 @@
   {
 	echo "You are  21 years old or over<br/>";
   }
-  if ($_POST["radsex"] == "male")
+  while ($_POST["radsex"] == "male") {
+  echo "You are a male <br/>";
+  } ($_POST["radsex"] == "male")
   {
 	echo "You are a male <br/>";
   }
@@ -18,5 +20,4 @@
   {
   echo "You do not identify as male or female <br/>";
   }
-
 ?>
