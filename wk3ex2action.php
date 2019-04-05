@@ -25,5 +25,4 @@
     echo "You have not specified a gender";
   }
   }
-
 ?>
