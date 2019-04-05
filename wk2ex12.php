@@ -16,7 +16,7 @@
 <?
   for($count = 0;$count < 5;$count++)
   {
-    echo "<tr><td>$count</td><td>$topmodules[$count]</td></tr>";
+    echo <tr><td>$count</td><td>$topmodules[$count]</td></tr>;
   }
 ?>
 </table>
