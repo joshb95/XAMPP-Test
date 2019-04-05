@@ -1,4 +1,4 @@
-<?
+<?php  
   $mymarks["C0450"] = 84;
   $mymarks["C0451"] = 62;
   $mymarks["C0452"] = 79;
@@ -8,7 +8,7 @@
 
   while(list($index,$value) = each($mymarks))
   {
-    echo "for  $index  my grade was  $value <br/>";
+    echo "for $index my grade was $value";
   }
 
 
