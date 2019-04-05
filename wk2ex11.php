@@ -16,7 +16,7 @@
   {
     $total = $total + $value;
   }
-
+echo "$total";
   $average = $total /  6;
   echo "My average grade was $average";
 
