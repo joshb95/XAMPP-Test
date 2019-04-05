@@ -1,5 +1,5 @@
-<?
-  switch ($_POST[“radcourse”])
+<?php
+  switch ($_POST["radcourse"]) 
   {
     case "HNC" : echo "You have selected an HNC course";
                  break;
