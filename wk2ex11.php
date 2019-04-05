@@ -12,11 +12,8 @@
   }
 
   $total = 0;
-  while(list($index,$value) = each($mymarks))
-  {
-    $total = $total + $value;
-  }
-echo "$total";
+  $asum = array_sum($mymarks);
+  $total = $total + $asum;
   $average = $total /  6;
   echo "My average grade was $average";
 
