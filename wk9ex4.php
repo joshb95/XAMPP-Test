@@ -1,7 +1,7 @@
 <?php
      $conn = mysqli_connect("localhost", "root", "", "lotto");
 
-     if ($_POST[selweek]){
+     if ($_POST["selweek"]){
        $sql = "select * from lotto where wk=$_POST[selweek];";
        $result = mysqli_query($sql);
        $row = mysqli_fetch_array($result);
@@ -15,7 +15,7 @@
      }
      else {
        $sql = "select * from lotto;";
-       $result = mysqli_query($sql);
+       $result = mysqli_query($conn,$sql);
 
        echo "<form action='$_SESSION[PHP_SELF]' method='post' >";
        echo "<br/>Select the lottery week ";
