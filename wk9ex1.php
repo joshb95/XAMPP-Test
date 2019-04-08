@@ -5,7 +5,7 @@
         $number[$n] = rand(1,49);
         echo "<br/> $number[$n]";
      }
-     $conn = mysqli_connect("localhost", username, password, databasename);
+     $conn = mysqli_connect("localhost", 21717039, mysqluser, test);
 
      $sql = "insert into lotto (lottodate,number1,number2,";
      $sql = $sql . "number3,number4,number5,number6)";
