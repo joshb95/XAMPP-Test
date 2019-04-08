@@ -3,7 +3,7 @@
 
      if ($_POST["selweek"]){
        $sql = "select * from lotto where wk=$_POST[selweek];";
-       $result = mysqli_query($sql);
+       $result = mysqli_query($conn,$sql);
        $row = mysqli_fetch_array($result);
 
        echo "Number 1 is  $row[number1]<br/>";
