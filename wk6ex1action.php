@@ -1,7 +1,7 @@
 <?php
 
 	$sql = "INSERT INTO test (name,email,phone_number) ";
-	$sql = $sql . "values ($_POST['txtName'], $_POST['txtEmail'], $_POST['txtPhoneNumber'])" ;
+	$sql = $sql . values ($_POST["txtName"], $_POST["txtEmail"], $_POST["txtPhoneNumber"]) ;
   $conn = mysqli_connect("localhost","root","", "db_21717039");
   $result = mysqli_query($conn, $sql);
 	// Connect to server and select database
