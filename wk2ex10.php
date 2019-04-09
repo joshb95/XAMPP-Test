@@ -1,7 +1,7 @@
 <?php
-  $mymarks[1] = 55;
-  $mymarks[2] = 65;
-  $mymarks[3] = 75;
+  $mymarks[0] = 55;
+  $mymarks[] = 65;
+  $mymarks[] = 75;
 ?>
 <head>
 <title>Data in table</title>
