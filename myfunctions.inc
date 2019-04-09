@@ -18,6 +18,7 @@ function html_footer()
 
 function calculatetax($salary, $rate=40)
 {
+	$salary = $salary - 12500
 	$tax = ($salary * ($rate/100));
 	return $tax;
 }
