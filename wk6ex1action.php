@@ -3,10 +3,11 @@
 	$sql = "INSERT INTO test (name,email,phone_number) ";
 	$sql = $sql . " values ('$_POST[txtName]','$_POST[txtEmail]','$_POST[txtPhoneNumber]’)";
 
-  $result = mysqli_query($conn,$sql);
+  $result = mysqli_query($link, $sql);
 	// Connect to server and select database
 
 	// Execute sql statement
+mysqli_free_result($result);
 
 	$sql = "SELECT * from test";
 
