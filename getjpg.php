@@ -2,7 +2,7 @@
 
   header("Content-type: image/jpeg");
 
-  $conn = mysqli_connect("localhost", " root ","  ", "media ");
+  $conn = mysqli_connect("localhost", " root ","", "media ");
 
   $sql = "SELECT image FROM monster WHERE id='" . $_GET[id] ."';";
 

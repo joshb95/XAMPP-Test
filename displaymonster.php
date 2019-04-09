@@ -1,6 +1,6 @@
 <?php
 
-  $conn = mysqli_connect("localhost", " root ","  ", "media ");
+  $conn = mysqli_connect("localhost", " root ","", "media ");
 
 $sql = "select id from monster;";
 
