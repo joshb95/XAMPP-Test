@@ -7,6 +7,7 @@
 	// Connect to server and select database
 
 	// Execute sql statement
+
 mysqli_free_result($result);
 
 	$sql = "SELECT * from test";
