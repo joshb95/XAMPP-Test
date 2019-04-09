@@ -4,11 +4,11 @@
 
 <?php
 
-  $conn = mysqli_connect("localhost", " mysqlusername "," mysqlpassword ", "databasename ");
+  $conn = mysqli_connect("localhost", "root","", "media");
 
 $sql = "select id,name from monster;";
 
-$result = mysqli_query($sql, $db);
+$result = mysqli_query($db, $sql);
 
 
 echo "<table align='center' border='1'>";
