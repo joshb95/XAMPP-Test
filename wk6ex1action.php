@@ -5,7 +5,6 @@
   $conn = mysqli_connect("localhost","root","", "db_21717039");
   $result = mysqli_query($conn, $sql);
 	// Connect to server and select database
-printf($result)
 	// Execute sql statement
 
 mysqli_free_result($result);
