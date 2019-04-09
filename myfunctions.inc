@@ -16,10 +16,9 @@ function html_footer()
 	echo "</html>";
 }
 
-function calculatetax($salary, $rate=40)
+function calculatetax($salary, $allowance=12500, $rate=40)
 {
-	$nett = $salary - 12500
-	$tax = ($nett * ($rate/100));
+	$tax = (($salary - $allowance) * ($rate/100));
 	return $tax;
 }
 
