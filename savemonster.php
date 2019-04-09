@@ -14,6 +14,6 @@ $audio = $_FILES['monsteraudio']['tmp_name'];
   $sql .= "(name, image, audio) ";
   $sql .= "VALUES ('$_POST[txtname]', '$imagedata','$audiodata');";
 
-  $result = mysqli_query($sql, $db);
+  $result = mysqli_query($db, $sql);
 
 ?>
