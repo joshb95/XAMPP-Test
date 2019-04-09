@@ -1,5 +1,5 @@
 <?php
-  $mymarks[0] = 55;
+  $mymarks[1] = 55;
   $mymarks[] = 65;
   $mymarks[] = 75;
 ?>
@@ -8,9 +8,9 @@
 </head>
 <body>
 <table border=1 align="center">
-<tr><th>Index</th><th>year</th></tr>
+<tr><th>year</th><th>grade</th></tr>
 <?php
-  for($count = 0;$count < 3;$count++)
+  for($count = 1;$count < 4;$count++)
   {
     echo "<tr><td>$count</td><td>$mymarks[$count]</td></tr>";
   }
