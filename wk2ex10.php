@@ -8,7 +8,7 @@
 </head>
 <body>
 <table border=1 align="center">
-<tr><th>Index</th><th>Subject</th></tr>
+<tr><th>Index</th><th>year</th></tr>
 <?php
   for($count = 0;$count < 3;$count++)
   {
