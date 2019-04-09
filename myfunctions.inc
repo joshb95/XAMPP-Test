@@ -18,8 +18,8 @@ function html_footer()
 
 function calculatetax($salary, $rate=40)
 {
-	$taxable = $salary - 12500
-	$tax = ($taxable * ($rate/100));
+	$nett = $salary - 12500
+	$tax = ($nett * ($rate/100));
 	return $tax;
 }
 
