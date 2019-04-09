@@ -1,17 +1,16 @@
 <?php
+  $conn = mysqli_connect("localhost","root","", "db_21717039");
 	$sql = "INSERT INTO test (name,email,phone_number) ";
 	$sql = $sql . " values ('$_POST[txtName]','$_POST[txtEmail]','$_POST[txtPhoneNumber]’)";
 
-  $link = mysqli_connect("localhost","login","pwd", "my_database");
-  $result = mysqli_query($link,$sql);
+  $result = mysqli_query($conn,$sql);
 	// Connect to server and select database
 
 	// Execute sql statement
 
 	$sql = "SELECT * from test";
 
-  mysqli_free_result($result);
-mysqli_close($link);
+    $result = mysqli_query($conn,$sql);
 
 	// Execute sql statement
 
