@@ -2,17 +2,17 @@
   $conn = mysqli_connect("localhost","root","", "db_21717039");
 	// Connect to server and select database
 
-	$sql = "SELECT * from test where name = '$_GET[id]’ ”;
+	$sql = "SELECT * from test where name = '$_GET[id]' ";
       $result = mysqli_query($conn, $sql);
 	// Execute query
 	$row = mysqli_fetch_assoc($result);
 ?>
 <html>
 <body>
-<form action=” ” method=”post”>
+<form action=" " method="post">
 
 	Name :
-	<input type=text name=txtname value="<? echo $row[name] ?>” readonly />
+	<input type=text name=txtname value="<? echo $row[name] ?> readonly />"
 	</br>
 	Phone number :
 	<input type=text name=txttelno value="<? echo $row[phone_number] ?>" />
