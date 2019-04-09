@@ -16,5 +16,4 @@ $audio = $_FILES['monsteraudio']['tmp_name'];
 
   $result = mysqli_query($sql, $db);
 
-   mysqli_close();
 ?>
